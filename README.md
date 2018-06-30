@@ -1,10 +1,10 @@
-# offer-management
+# offer-management service
 
 [Intro]
 
 This is a simple offer management service baesd on Java Restful APIs which uses spring boot, h2 in-memory database
 
-feature list:
+Feature list:
 
 1. create offer
 
@@ -164,4 +164,5 @@ param: offer id in uery string
 response: none, http status 200
 
 thanks for reading,
+
 jeff
