@@ -14,7 +14,7 @@ Feature list:
 
 4. delete offer
 
-** each offer has a due date and it can be updated(status chage, e.g. Delivered, Cancelled) before it expired
+** each offer has a due date and it can be updated(status change, e.g. Delivered, Cancelled) before it expired
 
 [Usage]
 
