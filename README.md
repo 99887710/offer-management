@@ -1,4 +1,4 @@
-# offer-management service
+# Offer Management Service
 
 [Intro]
 
@@ -27,6 +27,18 @@ command: mvn spring-boot:run
 command: mvn test
 
 3. the server runs at port 8080, make sure it's available to use
+
+4. h2 in memory databse console ui
+
+navigate to http://localhost:8080/h2-console to the console ui
+
+loging info:
+
+jdbc url: jdbc:h2:mem:testdb
+
+user name: admin
+
+password: 123456
 
 [API enpoints]
 
