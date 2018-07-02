@@ -18,7 +18,7 @@ Feature list:
 
 [Usage]
 
-1. build and run the project
+1. build and run the project using Maven version >= 3.5.0
 
 command: mvn spring-boot:run
 
@@ -39,6 +39,10 @@ jdbc url: jdbc:h2:mem:testdb
 user name: admin
 
 password: 123456
+
+** All tables will be created automatically because of the following configuration
+
+spring.jpa.hibernate.ddl-auto = update
 
 [API enpoints]
 
